@@ -1,6 +1,6 @@
 import {Icon} from "../icon/Icon"
 
-export const Logo =()=>{
+export const Logo =()=> {
 	return(
 <div>
 	 <a href="">
