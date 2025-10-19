@@ -6,7 +6,7 @@ text:string
 src:string
 }
 
-export const Work = (props:WorksPropsType) =>{
+export const Work = (props:WorksPropsType) => {
 	return (
 		<StyledWork>
         <Image src={props.src} alt=''/>

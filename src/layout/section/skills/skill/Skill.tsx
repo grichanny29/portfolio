@@ -1,6 +1,6 @@
 
 import styled from "styled-components";
-import { Icon } from "../../../../../../components/icon/Icon";
+import { Icon } from "../../../../components/icon/Icon";
 
 
 type SkillPropsType ={

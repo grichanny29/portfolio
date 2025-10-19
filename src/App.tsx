@@ -1,18 +1,19 @@
 import './App.css'
 
 import { Header } from './layout/header/Header';
-import { Main } from './layout/header/section/main/Main';
-import { Skills } from './layout/header/section/main/skills/Skills';
-import { Works } from './layout/header/section/works/Works';
-
+import { Main } from './layout/section/main/Main';
+import { Skills } from './layout/section/skills/Skills';
+import { Works } from './layout/section/works/Works';
+import {Testymony} from './layout/section/testimony/Testymony'
 
 function App() {
     return (
         <div className="App">
-           <Header/>
+                    <Header/>
 					 <Main/>
-					< Skills/>
-				<Works/>
+					<Skills/>
+				     <Works/>
+                     <Testymony/>
         </div>
     )
 }
