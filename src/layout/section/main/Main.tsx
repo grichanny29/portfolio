@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import photo from '../../../assets/images/photo.jpg';
+import photo from '../../../assets/images/photoI.webp';
 import { FlexWrapper } from '../../../components/FlexWrapper';
 
 export const Main = () => {
@@ -8,8 +8,8 @@ export const Main = () => {
       <FlexWrapper align={'center'} justify={'space-around'}>
         <TextWrapper>
           <span>Hi There</span>
-          <Name>I am Svetlana Dyablo</Name>
-          <MainTitle>A Web Developer.</MainTitle>
+          <Name>I am GRICHANNYI ALEKSANDR </Name>
+          <MainTitle>IT-incubator, student</MainTitle>
         </TextWrapper>
 
         <Photo src={photo} alt="" />
