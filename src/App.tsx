@@ -1,7 +1,7 @@
 import './App.css'
 
 import { Header } from './layout/header/Header';
-import { Main } from './layout/section/main/Main';
+import {Mainn} from './layout/section/mainn/Mainn';
 import { Skills } from './layout/section/skills/Skills';
 import { Works } from './layout/section/works/Works';
 import {Testymony} from './layout/section/testimony/Testymony';
@@ -14,7 +14,7 @@ function App() {
     return (
         <div className="App">
                     <Header/>
-					 <Main/>
+			        <Mainn/>
 					<Skills/>
 				     <Works/>
                      <Testymony/>
